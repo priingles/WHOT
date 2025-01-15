@@ -15,8 +15,7 @@ public class deck {
 		card _1square = new card("1square", 1, "square", "hold_on"); cards.add(_1square);
 		card _2square = new card("2square", 2, "square", "pick_2"); cards.add(_2square);
 		card _3square = new card("3square", 3, "square", null); cards.add(_3square);
-		card _4square = new card("4square", 4, "square", null); cards.add(_4square);
-		card _5square = new card("5square", 5, "square", null); cards.add(_5square);
+		card _5square = new card("5square", 5, "square", "pick_3"); cards.add(_5square);
 
 		return cards;
 
