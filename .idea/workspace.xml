@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/p_deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/util.java" afterDir="false" />
+    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment=":)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +22,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "priingles"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/priingles/WHOT&quot;,
+    &quot;accountId&quot;: &quot;75935c0b-96be-4dd9-a1b2-2ee2f429cc60&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2rdNVC4hApPKE15ixy7FSF8f49Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -72,10 +88,35 @@
       <option name="presentableId" value="Default" />
       <updated>1736885016282</updated>
       <workItem from="1736885017240" duration="2623000" />
+      <workItem from="1736942542600" duration="4901000" />
     </task>
+    <task id="LOCAL-00001" summary=":)">
+      <option name="closed" value="true" />
+      <created>1736943081980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736943081980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":)" />
+    <option name="LAST_COMMIT_MESSAGE" value=":)" />
   </component>
 </project>
