@@ -93,7 +93,7 @@ public class deck {
 
 
 		// WHOT CARDS
-		card whotCard = new card("20WHOT", 20, "special_shape", "WILDCARD!"); deck.add(_20special_shape);
+		card _20FLEX = new card("20FLEX", 20, "FLEX", "WILDCARD!"); deck.add(_20FLEX);
 		return deck;
 
 	}
