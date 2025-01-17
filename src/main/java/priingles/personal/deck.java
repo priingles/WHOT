@@ -10,7 +10,6 @@ public class deck {
 	public priingles.personal.deck load(){
 
 		//SQUARES
-
 		card _1square = new card("1square", 1, "square", "hold_on"); deck.add(_1square);
 		card _2square = new card("2square", 2, "square", "pick_2"); deck.add(_2square);
 		card _3square = new card("3square", 3, "square", null); deck.add(_3square);
@@ -27,7 +26,6 @@ public class deck {
 		card _14square = new card("14square", 14, "square" ,"GENERAL MARKET!"); deck.add(_14square);
 
 		//CIRCLES
-
         card _1circle = new card("1circle", 1,"circle", "hold_on"); deck.add(_1circle);
 		card _2circle = new card("2circle", 1, "circle", "pick_2"); deck.add(_2circle);
 		card _3circle = new card("3circle", 3,"circle", null); deck.add(_3circle);
@@ -90,7 +88,6 @@ public class deck {
 		card _12star = new card("12star", 12, "star", null); deck.add(_12star);
 		card _13star = new card("13star", 13, "star", null); deck.add(_13star);
 		card _14star = new card("14star", 14,"star", "GENERAL MARKET!"); deck.add(_14star);
-
 
 		// WHOT CARDS
 		card _20FLEX = new card("20FLEX", 20, "FLEX", "WILDCARD!"); deck.add(_20FLEX);
