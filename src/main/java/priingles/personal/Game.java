@@ -88,13 +88,27 @@ public class Game {
             Player nextPlayer = players.get((currentPlayerIndex + 1) % players.size());
             System.out.println(nextPlayer.getName() + " must pick 2 cards!");
             for (int i = 0; i < 2; i++) {
-                nextPlayer.drawCard(marketDeck);
+                if (marketDeck.status()) {
+                    nextPlayer.deck.add(marketDeck.getCard());
+                }
+                else {
+                    emptyDeck();
+                    playingCondition = false;
+                }
+
             }
         } else if ("GENERAL MARKET!".equals(playedCard.power_up)) {
             // All players must draw 1 card.
             System.out.println("All players must draw 1 card!");
             for (Player p : players) {
-                p.drawCard(marketDeck);
+                if (marketDeck.status()) {
+                p.deck.add(marketDeck.getCard());
+                }
+                else {
+                    emptyDeck();
+                    playingCondition = false;
+                }
+
             }
         }
         // Additional effects can be added here as needed.
