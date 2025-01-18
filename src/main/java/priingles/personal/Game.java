@@ -2,15 +2,15 @@ package priingles.personal;
 
 import java.util.LinkedList;
 
-public class game {
+public class Game {
     private LinkedList<player> players; // List of players in the game.
-    private deck marketDeck; // Deck used for drawing cards during the game.
+    private Deck marketDeck; // Deck used for drawing cards during the game.
     private card topCard; // The card currently on top of the play pile.
     private int currentPlayerIndex; // Tracks the index of the player whose turn it is.
 
-    public game() {
+    public Game() {
         players = new LinkedList<>();
-        marketDeck = new deck();
+        marketDeck = new Deck();
         marketDeck.load(); // Load cards into the deck.
         marketDeck.shuffle(); // Shuffle the deck for randomness.
         currentPlayerIndex = 0; // Start with the first player.
