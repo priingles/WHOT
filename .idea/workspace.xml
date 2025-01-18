@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment=":)" />
+    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment=":)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +56,9 @@
     &quot;accountId&quot;: &quot;75935c0b-96be-4dd9-a1b2-2ee2f429cc60&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -174,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737226559863</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":)">
+      <option name="closed" value="true" />
+      <created>1737226730568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737226730568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

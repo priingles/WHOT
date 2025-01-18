@@ -1,12 +1,13 @@
 package priingles.personal;
 
-import java.util.LinkedList;
-
 public class Main {
 	public static void main(String[] args) {
-		Deck market_deck = new Deck();
+		Player player1 = new Player("Player 1");
+		Player player2 = new Player("Player 2");
+
 		Game game = new Game();
-		market_deck.load();
-		market_deck.shuffle();
+		game.addPlayer(player1);
+		game.addPlayer(player2);
+		game.startGame();
 	}
 }
