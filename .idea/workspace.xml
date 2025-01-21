@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment=":)">
+    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment="Empty deck logic implemented">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

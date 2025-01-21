@@ -36,12 +36,14 @@ public class Game {
 
     private void gameLoop() {
         while (playingCondition) {
+
             Player currentPlayer = players.get(currentPlayerIndex); // Get the current player.
             System.out.println("It's " + currentPlayer.getName() + "'s turn.");
             playTurn(currentPlayer); // Process the current player's turn.
+
             if (currentPlayer.hasWon()) { // Check for a win condition.
                 System.out.println(currentPlayer.getName() + " has won the game!");
-                playingCondition = false; // End the game if a player wins.
+                playingCondition = false; // End game if player wins.
             }
             // Move to the next player in a circular manner.
             currentPlayerIndex = (currentPlayerIndex + 1) % players.size();
@@ -49,8 +51,10 @@ public class Game {
     }
 
     private void playTurn(Player currentPlayer) {
+
         // Attempt to find a valid card to play.
         Card playedCard = null;
+
         for (Card c : currentPlayer.deck.getDeck()) {
             if (isValidMove(c)) { // Check if the card is a valid move.
                 playedCard = c;
@@ -58,6 +62,7 @@ public class Game {
                 break;
             }
         }
+
         if (playedCard != null) {
             System.out.println(currentPlayer.getName() + " played: " + playedCard.name);
             topCard = playedCard; // Update the top card on the pile.
@@ -65,6 +70,7 @@ public class Game {
         } else {
             // If no valid cards, draw one from the deck.
             System.out.println(currentPlayer.getName() + " has no valid cards. Drawing a card...");
+
             if (marketDeck.status()){
                 currentPlayer.deck.add(marketDeck.getCard());
             }
