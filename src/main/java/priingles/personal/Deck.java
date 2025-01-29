@@ -22,7 +22,7 @@ public class Deck {
 		Card _11square = new Card("11square", 11, "square", null); cards.add(_11square);
 		Card _12square = new Card("12square", 12, "square", null); cards.add(_12square);
 		Card _13square = new Card("13square", 13, "square", null); cards.add(_13square);
-		Card _14square = new Card("14square", 14, "square" ,"GENERAL MARKET!"); cards.add(_14square);
+		Card _14square = new Card("14square", 14, "square" ,"gm"); cards.add(_14square);
 
 		//CIRCLES
 		Card _1circle = new Card("1circle", 1,"circle", "hold_on"); cards.add(_1circle);
@@ -38,7 +38,7 @@ public class Deck {
 		Card _11circle = new Card("11circle", 11,"circle", null); cards.add(_11circle);
 		Card _12circle = new Card("12circle", 12, "circle", null); cards.add(_12circle);
 		Card _13circle = new Card("13circle", 13, "circle", null); cards.add(_13circle);
-		Card _14circle = new Card("14circle", 14,"circle", "GENERAL MARKET!"); cards.add(_14circle);
+		Card _14circle = new Card("14circle", 14,"circle", "gm"); cards.add(_14circle);
 
 		//CROSS
 		Card _1cross = new Card("1cross", 1,"cross", "hold_on"); cards.add(_1cross);
@@ -54,7 +54,7 @@ public class Deck {
 		Card _11cross = new Card("11cross", 11,"cross", null); cards.add(_11cross);
 		Card _12cross = new Card("12cross", 12, "cross", null); cards.add(_12cross);
 		Card _13cross = new Card("13cross", 13, "cross", null); cards.add(_13cross);
-		Card _14cross = new Card("14cross", 14,"cross", "GENERAL MARKET!"); cards.add(_14cross);
+		Card _14cross = new Card("14cross", 14,"cross", "gm"); cards.add(_14cross);
 
 		//Triangle
 		Card _1triangle = new Card("1triangle", 1,"triangle", "hold_on"); cards.add(_1triangle);
@@ -70,7 +70,7 @@ public class Deck {
 		Card _11triangle = new Card("11triangle", 11,"triangle", null); cards.add(_11triangle);
 		Card _12triangle = new Card("12triangle", 12, "triangle", null); cards.add(_12triangle);
 		Card _13triangle = new Card("13triangle", 13, "triangle", null); cards.add(_13triangle);
-		Card _14triangle = new Card("14triangle", 14,"triangle", "GENERAL MARKET!"); cards.add(_14triangle);
+		Card _14triangle = new Card("14triangle", 14,"triangle", "gm"); cards.add(_14triangle);
 
 		//STAR
 		Card _1star = new Card("1star", 1,"star", "hold_on"); cards.add(_1star);
@@ -86,7 +86,7 @@ public class Deck {
 		Card _11star = new Card("11star", 11,"star", null); cards.add(_11star);
 		Card _12star = new Card("12star", 12, "star", null); cards.add(_12star);
 		Card _13star = new Card("13star", 13, "star", null); cards.add(_13star);
-		Card _14star = new Card("14star", 14,"star", "GENERAL MARKET!"); cards.add(_14star);
+		Card _14star = new Card("14star", 14,"star", "gm"); cards.add(_14star);
 
 		// WHOT CARDS
 		Card _WHOT = new Card("1", 20, "WHOT", "BIG FLEX!"); cards.add(_WHOT);

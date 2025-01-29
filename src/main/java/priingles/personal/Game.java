@@ -3,18 +3,22 @@ package priingles.personal;
 import java.util.LinkedList;
 
 public class Game {
-    private LinkedList<Player> players; // List of players in the game.
-    private Deck marketDeck; // Deck used for drawing cards during the game.
-    private Card topCard; // The card currently on top of the play pile.
-    private int currentPlayerIndex; // Tracks the index of the player whose turn it is.
+    private LinkedList<Player> players;
+    private Deck marketDeck;
+    private Card topCard;
+    private int currentPlayerIndex;
     private boolean playingCondition = true;
+    private Rules rules;
 
-    public Game() {
+
+
+    public Game(Rules rules) {
         players = new LinkedList<>();
         marketDeck = new Deck();
         marketDeck.loadFull(); // Load cards into the deck.
         marketDeck.shuffle(); // Shuffle the deck for randomness.
-        currentPlayerIndex = 0; // Start with the first player.
+        currentPlayerIndex = 0;// Start with the first player.
+        this.rules = rules;
     }
 
     public void addPlayer(Player player) {
@@ -89,7 +93,7 @@ public class Game {
 
     private void applyCardEffect(Card playedCard) {
         // Handle special card effects (e.g., pick 2, general market).
-        if ("pick_2".equals(playedCard.power_up)) {
+        if ("pick_2".equals(playedCard.power_up) && rules.pick_2) {
             // The next player must draw 2 cards.
             Player nextPlayer = players.get((currentPlayerIndex + 1) % players.size());
             System.out.println(nextPlayer.getName() + " must pick 2 cards!");
@@ -103,7 +107,7 @@ public class Game {
                 }
 
             }
-        } else if ("GENERAL MARKET!".equals(playedCard.power_up)) {
+        } else if ("gm".equals(playedCard.power_up) && rules.gm) {
             // All players must draw 1 card.
             System.out.println("All players must draw 1 card!");
             for (Player p : players) {

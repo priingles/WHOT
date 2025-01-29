@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment="read only file fix attempt">
+    <list default="true" id="e32a7dba-94f0-4bdb-b024-a5a765278d6a" name="Changes" comment="javafx dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Rules.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priingles/personal/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,7 @@
       <workItem from="1736885017240" duration="2623000" />
       <workItem from="1736942542600" duration="4901000" />
       <workItem from="1737433764119" duration="1445000" />
-      <workItem from="1738162446908" duration="1530000" />
+      <workItem from="1738162446908" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <option name="closed" value="true" />
@@ -226,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737433792581</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="javafx dependencies">
+      <option name="closed" value="true" />
+      <created>1738165328733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738165328733</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +257,7 @@
     <MESSAGE value=":)" />
     <MESSAGE value="..." />
     <MESSAGE value="read only file fix attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="read only file fix attempt" />
+    <MESSAGE value="javafx dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="javafx dependencies" />
   </component>
 </project>
